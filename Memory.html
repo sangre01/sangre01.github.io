@@ -1,16 +1,26 @@
 <html>
 <body>
 <style>
-  section {height: 175px;
+  section{
+    Possition: relative;
+  height: 175px;
   width: 100px;
-  border 2px solid black;
+  border : 2px solid;
+  border-radius: 10px;
+  }
+  .question {
+    background-color: green;
+  }
+  .answer {
+    background-color: grey;
+    z-index: -1;
   }
 </style>
-<section>
+<section class="question">
   <p>What average does human eat three meal per day?</p>
 </section>
-<section>
-  <p>What is my name?</p>
+<section class="answer">
+  <p>Three</p>
 </section>
 </body>
 </html>
