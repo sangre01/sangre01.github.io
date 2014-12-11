@@ -1,8 +1,27 @@
-<html>
-<style>
-body {
-  background-color:blue;
+h1 {
+  color:#99FFFF;
+  text-size: 80px;
+  font-style: italic;
 }
-</style>
-</html>
+
+body {
+  background-color;
+}
+
+li.done {
+  text-decoration: line-through;
+}
+
+.High {
+  color:green;
+}
+
+.Medium {
+  color:blue;
+}
+
+.Low {
+  color:yellow;
+}
+  
 
